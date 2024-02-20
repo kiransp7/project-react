@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/project-react/static/css/main.0293e190.css",
+    "main.js": "/project-react/static/js/main.84bf9152.js",
+    "static/media/studyemoji.png": "/project-react/static/media/studyemoji.37a6be5e1198a3f51907.png",
+    "static/media/boy.png": "/project-react/static/media/boy.5ca4b670a32b71681d2c.png",
+    "static/media/glassesimoji.png": "/project-react/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/KiranPatilResume.pdf": "/project-react/static/media/KiranPatilResume.e1ff88792f2cfdf2d4d4.pdf",
+    "static/media/thumbup.png": "/project-react/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/wave.png": "/project-react/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/project-react/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/project-react/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "index.html": "/project-react/index.html",
+    "main.0293e190.css.map": "/project-react/static/css/main.0293e190.css.map",
+    "main.84bf9152.js.map": "/project-react/static/js/main.84bf9152.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0293e190.css",
+    "static/js/main.84bf9152.js"
+  ]
+}
