@@ -1,0 +1,64 @@
+.cart{
+    width: 10rem;
+    height: 13rem;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    width: 28rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.26);
+    /* border: 7px solid var(--orangeCard); */
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    padding: 0px 26px  2rem 26px;
+    margin-left: 40px;
+}
+
+.cart span:nth-of-type(2){
+        color: var(--gray);
+        font-size: 16px;
+}
+
+.cart span:nth-of-type(3){
+    color: var(--gray);
+    font-size: 16px;
+}
+
+.cart > img{
+    transform: scale(0.6);
+    margin-bottom: -2rem;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.c-button{
+    background: #ffffff;
+    box-shadow: 0px 19px 60px black;
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    
+    
+}
+
+.c-button>a{
+    text-decoration: none;
+    color: rgb(93, 78, 204);
+    font-family: "Times New Roman";
+    font-size: 15px;
+}
+
+.c-button:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 480px) {
+    .cart{
+        width: auto;
+        margin-left: 0;
+    }
+  }

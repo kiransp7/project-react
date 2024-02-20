@@ -1,7 +1,7 @@
 .services{
     padding: 0 3rem 0 3rem;
     display: flex;
-    height: 90vh;
+    height: 40vh;
     margin-bottom: 8rem;
     margin-top: 9rem;
     margin-bottom: 13rem;
@@ -37,3 +37,26 @@
     margin-top: 1rem;
 }
 
+.cart{
+    position: relative;
+}
+
+@media screen and (max-width: 480px) {
+    .services{
+        margin-top: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 25rem;
+        padding: 0;
+    }
+    .cart{
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+    }
+    .cart>*{
+        position: static;
+        
+    }
+
+  }

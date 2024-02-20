@@ -10,6 +10,7 @@ import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import Floatingdiv from "./floatingdiv";
+import { Link } from "react-scroll";
 
 
 
@@ -25,10 +26,11 @@ function Intro() {
           <span> Full Stack Developer with project experience in web designing and backend API's, producting the Quality work</span>
         </div>
 
-        <button className="button i-btn">Hire Me</button>
+        <Link spy={true} to="contact" smooth={true}> 
+        <button className="button i-btn">Hire Me</button> </Link>
         
         <div className="i-icons">
-            <a href="https://www.linkedin.com/in/kiran-patil-903b41200/" target="_blank"> <img src={LinkedIn} alt="LinkedIn"/>  </a>
+              <a href="https://www.linkedin.com/in/kiran-patil-903b41200/" target="_blank"> <img src={LinkedIn} alt="LinkedIn"/>  </a>
               <a href="https://github.com/kiransp7" target="_blank">  <img src={GitHub} alt="Facebook"/> </a>
               <a href="https://www.instagram.com/kiran7p/" target="_blank"> <img src={Instagram} alt="Instagram"/>  </a>
         </div>
@@ -41,21 +43,21 @@ function Intro() {
       <img src={boy} alt="boy"/>
       <img src={glassesimoji} alt="glassesimoji"/>
 
-      <div style={{top:'-4%', left:'68%'}}>
+      <div style={{top:'-4%', left:'68%'}} className="floatingdiv">
       {/* Prop use------------------------------------------------>>>>>>>>>>>>>> PROPs------------------------------------*/}
           <Floatingdiv image={crown} txt1={"FullStack"} txt2={"Developer"}></Floatingdiv>  
       </div>
 
-      <div style={{top:'18rem', left:'0rem'}}>
+      <div style={{top:'18rem', left:'0rem'}} className="floatingdiv">
       {/* Prop use------------------------------------------------>>>>>>>>>>>>>> PROPs-------------------------------------*/}
-          <Floatingdiv image={thumbup} txt1={"Best Design"} txt2={"Award"}></Floatingdiv>  
+          <Floatingdiv image={thumbup} txt1={"Best Design"} txt2={"UI/UX"}></Floatingdiv>  
       </div>
 
       {/* Blur Dives */}
 
       <div className="blur" style={{background: "rgb(238 210 255)"}}></div>
       <div className="blur" style={{
-              background: "#66FF00", 
+              background: "#76FF7A", 
               top:"17rem", 
               width:"21rem", 
               height:"7rem", 

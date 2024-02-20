@@ -14,6 +14,7 @@
 .n-name{
     font-size: 1.3rem;
     font-weight: bold;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
 }
 
 n-right{
@@ -26,19 +27,33 @@ n-right{
 
 .n-list{
     flex: 10;
+    
 }
 
 .n-list>ul{
     display: flex;
     gap: 2rem;
     margin-right: 4rem;
+    cursor: pointer;
+    font-weight: bold;
+    
 }
 
 .n-list>ul>li:hover{
     cursor: pointer;
     color: var(--orange);
+    
 }
 
 .n-btn{
     flex: 0.2;
 }
+
+@media screen and (max-width: 480px) {
+    .n-list{
+        display: none;
+    }
+    .n-btn{
+        display: none;
+    }
+  }
